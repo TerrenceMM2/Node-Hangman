@@ -1,18 +1,3 @@
-var inquirer = require("inquirer");
-
-// var guessedLetter = "";
-var guessedLetters = [];
-
-inquirer.prompt([{
-    type: "input",
-    name: "letter",
-    message: "Please guess a letter."
-}]).then(answer => {
-    guessedLetters.push(answer.letter);
-    var letter = new Letter(answer.letter);
-    letter.placeholder();
-})
-
 function Letter(str) {
     this.letter = str,
     this.guessed = false,
