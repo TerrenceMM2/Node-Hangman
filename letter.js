@@ -1,27 +1,37 @@
-// var guess = process.argv[2];
+var guess = process.argv[2];
 
-function Letter(letter) {
-    this.letter = letter,
+// Letter Object
+// {
+//     letter: "b",
+//     guessed: false,
+//     placeholder(): "b" or " _ ",
+//     beenGuessed(): return true or false
+// }
+
+var Letter = function (char) {
+    this.letter = char,
     this.guessed = false,
-    this.placeholder = function() {
-        for (var i = 0; i < 1; i++) {
-            if (letter === "x") {
-                return "x";
-            } else {
-                return " _ ";
-            };
+    this.placeholder = function(char) {
+        if (this.guessed) {
+            return this.letter;
+        } else {
+            return "_";
         };
     },
-    this.beenGuessed = function(letter) {
-        if (letter === this.letter) {
+    this.beenGuessed = function (char) {
+        if (char === this.letter) {
             this.guessed = true;
         };
     }
 };
 
-// var letter = new Letter(guess);
-
+// var letter = new Letter("x");
 // console.log(letter);
-// console.log(letter.placeholder());
-// console.log(letter.beenGuessed());
+// console.log(letter.letter);
 // console.log(letter.guessed);
+// console.log(letter.placeholder());
+// console.log(letter.beenGuessed("x"));
+// console.log(letter.placeholder());
+
+
+module.exports = Letter;
