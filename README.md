@@ -30,7 +30,7 @@ This node app will allow you to play hangman through the command line.
 2. Enter one letter when prompted.
    * If you enter a character other than a letter or more than one letter, an error will be displayed. You will not be penalized.  
 
-   ![User inputs an invalid guess](../media/node_invalid.gif?raw=true)
+![User inputs an invalid guess](../media/node_invalid.gif?raw=true)
 
 3. Once the round is over, you will be asked if you would like to play again.
 
