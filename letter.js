@@ -12,6 +12,9 @@ var Letter = function (char) {
     this.letter = char,
     this.guessed = false,
     this.placeholder = function(char) {
+        if (char === " ") {
+            return this.letter
+        };
         if (this.guessed) {
             return this.letter;
         } else {
