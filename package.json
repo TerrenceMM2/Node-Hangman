@@ -1,0 +1,23 @@
+{
+  "name": "coursework9-node-word-guess",
+  "version": "1.0.0",
+  "description": "Vanderbilt Coding Boot Camp - Coursework #9 - Advanced JS Constructor Word Guess Game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TerrenceMM2/coursework9-node-word-guess.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TerrenceMM2/coursework9-node-word-guess/issues"
+  },
+  "homepage": "https://github.com/TerrenceMM2/coursework9-node-word-guess#readme",
+  "dependencies": {
+    "inquirer": "^6.4.1"
+  }
+}
