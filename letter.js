@@ -1,16 +1,7 @@
-var guess = process.argv[2];
-
-// Letter Object
-// {
-//     letter: "b",
-//     guessed: false,
-//     placeholder(): "b" or " _ ",
-//     beenGuessed(): return true or false
-// }
-
 var Letter = function (char) {
     this.letter = char,
     this.guessed = false,
+    // Function to return blanks (" _ ") or the letter if "guessed" key value is true.
     this.placeholder = function(char) {
         if (char === " ") {
             return this.letter
@@ -21,20 +12,12 @@ var Letter = function (char) {
             return "_";
         };
     },
+    // Function to change Letter object "guessed" key value from false to true.
     this.beenGuessed = function (char) {
         if (char === this.letter) {
             this.guessed = true;
         };
     }
 };
-
-// var letter = new Letter("x");
-// console.log(letter);
-// console.log(letter.letter);
-// console.log(letter.guessed);
-// console.log(letter.placeholder());
-// console.log(letter.beenGuessed("x"));
-// console.log(letter.placeholder());
-
 
 module.exports = Letter;
