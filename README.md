@@ -1,13 +1,8 @@
-# coursework9-node-word-guess
-Vanderbilt Coding Boot Camp - Coursework #9 - Advanced JS Constructor Word Guess Game  
-
-- - -
+# Node Hangman
 
 ## Purpose  
 
 This node app will allow you to play hangman through the command line.  
-
-- - -
 
 ## Installation  
 
@@ -18,8 +13,6 @@ This node app will allow you to play hangman through the command line.
 2. Run `npm install` to install the application's dependencies.  
 
    ```$ npm install``` 
-
-- - -
 
 ## Instructions  
 
