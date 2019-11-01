@@ -8,7 +8,7 @@ This node app will allow you to play hangman through the command line.
 
 1. Clone this repo to your local machine.  
 
-   ```$ git clone https://github.com/TerrenceMM2/coursework9-node-word-guess.git```  
+   ```$ git clone https://github.com/TerrenceMM2/Node-Hangman.git```  
 
 2. Run `npm install` to install the application's dependencies.  
 
@@ -45,7 +45,7 @@ To get started ...
 
 **Step 2** - **HACK AWAY!** 🔨🔨🔨
 
-**Step 3** - 🔃 Create a new pull request using [https://github.com/TerrenceMM2/coursework9-node-word-guess/compare](https://github.com/TerrenceMM2/coursework9-node-word-guess/compare)
+**Step 3** - 🔃 Create a new pull request using [https://github.com/TerrenceMM2/Node-Hangman/compare](https://github.com/TerrenceMM2/Node-Hangman/compare)
 
 - - -
 
